@@ -2,7 +2,7 @@ from collections import namedtuple
 import os
 import pytest
 from mock import patch
-from monitor import monitor, process, run_heudiconv, MASK_NEWDIR
+from heudiconv_monitor import monitor, process, run_heudiconv, MASK_NEWDIR
 from os.path import exists
 from tinydb import TinyDB, Query
 from subprocess import CalledProcessError
